@@ -43,4 +43,8 @@ module Dashboards
     # Don't generate system test files.
     config.generators.system_tests = nil
   end
+
+  def homepage
+    render ({ :template => ""})
+  end
 end
